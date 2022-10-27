@@ -18,18 +18,18 @@ module.exports = {
             chainId: 31337,
             // gasPrice: 130000000000,
         },
-        // goerli: {
-        //     url: GOERLI_RPC_URL,
-        //     accounts: [PRIVATE_KEY],
-        //     chainId: 5,
-        //     blockConfirmations: 6,
-        // },
-        // mainnet: {
-        //     url: process.env.MAINNET_RPC_URL,
-        //     accounts: [PRIVATE_KEY],
-        //     chainId: 1,
-        //     blockConfirmations: 6,
-        // },
+        goerli: {
+            url: GOERLI_RPC_URL,
+            accounts: [PRIVATE_KEY],
+            chainId: 5,
+            blockConfirmations: 6,
+        },
+        mainnet: {
+            url: process.env.MAINNET_RPC_URL,
+            accounts: [PRIVATE_KEY],
+            chainId: 1,
+            blockConfirmations: 6,
+        },
     },
     solidity: {
         compilers: [
